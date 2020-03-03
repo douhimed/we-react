@@ -44,6 +44,7 @@ const Didact = {
 const element = Didact.creatElement(
   "div",
   { id: "my-div" },
+  Didact.creatElement("h2", null, "My title"),
   Didact.creatElement("p", null, "My div content")
 );
 
